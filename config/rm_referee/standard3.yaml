@@ -37,7 +37,7 @@ rm_referee:
       - name: "target_distance"
         config: { type: "float_num", start_position: [ 190, 650 ], size: 25, width: 3 ,color: "yellow", delay: 0.4 }
       - name: "friend_bullets"
-        config: { type: "int_num", start_position: [ 1620, 780 ], color: "pink" ,size: 15, width: 2 , delay: 1.0 }
+        config: { type: "int_num", start_position: [ 1620, 700 ], color: "pink" ,size: 15, width: 2 , delay: 1.0 }
     fixed:
       - name: "capacity_boundary_l"
         config: { type: "line", width: 2, color: "green",
@@ -64,3 +64,17 @@ rm_referee:
       - name: "target"
         config: { type: "string", start_position: [ 30, 650 ], size: 25, width: 2, color: "pink", content: "target:" }
     flash:
+      - name: "cover"
+        config: { start_position: [ 830, 700 ], size: 25, width: 2,
+                  color: "green", content: "cover open!!", delay: 0.4 }
+      - name: "ore"
+        config: { start_position: [ 960, 720 ], size: 15, width: 2,
+                  color: "yellow", content: "Ore will released after 10s", delay: 0.4 }
+      - name: "armor0"
+        config: { type: "circle", width: 3, radius: 50, color: "yellow", delay: 0.75 }
+      - name: "armor1"
+        config: { type: "circle", width: 3, radius: 50, color: "yellow", delay: 0.75 }
+      - name: "armor2"
+        config: { type: "circle", width: 3, radius: 50, color: "yellow", delay: 0.75 }
+      - name: "armor3"
+        config: { type: "circle", width: 3, radius: 50, color: "yellow", delay: 0.75 }

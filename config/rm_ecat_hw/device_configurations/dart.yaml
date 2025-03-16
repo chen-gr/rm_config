@@ -29,13 +29,15 @@ can_motors:
     need_calibration: true
 
 gpios:
-  - name: "calibration_left"
-    pin: 1
-    mode: 0
-  - name: "calibration_yaw"
-    pin: 2
-    mode: 0
   - name: "calibration_right"
     pin: 0
     mode: 0
+  - name: "calibration_yaw"
+    pin: 1
+    mode: 0
+  - name: "calibration_left"
+    pin: 2
+    mode: 0
 
+dbus:
+  - name: "dbus"      
